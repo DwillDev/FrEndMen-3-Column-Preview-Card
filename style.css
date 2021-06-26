@@ -70,48 +70,52 @@
         line-height:2.3rem;
     }
 
-    button{
+    a{
+        display:flex;
+        justify-content: center;
+        align-items: center;
         background-color: var(--main-color);
-        border:none;
         border-radius: 3rem;
         width:clamp(9rem,36vw,15rem);
         font-size:clamp(1rem,3.3vw,1.4rem); 
         height:clamp(3rem,15vw,4.5rem);
-        margin-top:1rem;
+        margin-top:3rem;
+        text-decoration: none;
+
     }
 
-    .sedans button{
+    .sedans a{
         color:var(--sedans);
     }
 
-    .suvs button{
+    .suvs a{
         color:var(--suvs);
     }
 
-    .luxury button{
+    .luxury a{
         color:var(--luxury);
     }
 
-    p, button{
+    p, a{
         font-family: var(--main-font);
     }
 
 /* Pseudo-Elements */
-    button:hover, button:active{
+    a:hover, a:active{
         cursor:pointer;
         border:.2rem solid white;
         color:white;
     }
 
-    .sedans button:hover, .sedans button:active{
+    .sedans a:hover, .sedans a:active{
         background-color:var(--sedans);
     }
 
-    .suvs button:hover, .suvs button:active{
+    .suvs a:hover, .suvs a:active{
         background-color:var(--suvs);
     }
 
-    .luxury button:hover, .luxury button:active{
+    .luxury a:hover, .luxury a:active{
         background-color:var(--luxury);
     }
 
@@ -132,7 +136,7 @@
         }
 
     /* Sub-Containers III */
-        button{
+        a{
             margin-top:8rem;
         }
 }
