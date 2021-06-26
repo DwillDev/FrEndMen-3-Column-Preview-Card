@@ -49,7 +49,7 @@ During this project, I learned how to properly use CSS Grid to make columns resp
 
 ### Continued development
 
-I am still notc ompletely comfortable with using calc(), as the use cases I saw for it were a bit confusing. I plan to learn more about it so that I can implement it in the most useful way.
+I am still not completely comfortable with using calc(), as the use cases I saw for it were a bit confusing. I plan to learn more about it so that I can implement it in the most useful way.
 
 ### Useful resources
 
