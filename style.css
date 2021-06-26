@@ -97,21 +97,21 @@
     }
 
 /* Pseudo-Elements */
-    button:active{
+    button:active:hover{
         cursor:pointer;
         border:.2rem solid white;
         color:white;
     }
 
-    .sedans button:active{
+    .sedans button:active:hover{
         background-color:var(--sedans);
     }
 
-    .suvs button:active{
+    .suvs button:active:hover{
         background-color:var(--suvs);
     }
 
-    .luxury button:active{
+    .luxury button:active:hover{
         background-color:var(--luxury);
     }
 
