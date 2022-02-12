@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Pages](https://naiwilliams.github.io/3-Column-Preview-Card/)
+- Solution URL: [Github Pages](https://naiwilliams.github.io/FrEndMen-3-Column-Preview-Card/)
 
 ## My process
 
